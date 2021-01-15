@@ -8,7 +8,8 @@ const Produtos = () => {
     React.useEffect(() => {
         async function fetchData() {
             //const url = "http://localhost/fullstack_eletro/src/backend/prod.php";
-            const url = "http://localhost:8080/backend/prod.php";
+            //const url = "http://localhost:8080/backend/prod.php";
+            const url="http://localhost:4444/usuarios";
             const response = await fetch(url)
             setProduto(await response.json())
         } fetchData();

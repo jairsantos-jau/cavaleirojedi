@@ -9,8 +9,8 @@ const Contato = () => {
 
     React.useEffect(() => {
         async function fetchData(){
-        //const url = "http://localhost/fullstack_eletro/src/backend/coment.php";
-        const url = "http://localhost:8080/backend/coment.php";
+        const url = "http://localhost:4444/comentarios";
+        //const url = "http://localhost:8080/backend/coment.php";
 
         const response = await fetch(url);
         setComentario(await response.json());
@@ -20,7 +20,7 @@ const Contato = () => {
 
     function registerCommment(event) {
         event.preventDefault();
-        const url = "http://localhost:8080/backend/register-comment.php";
+        const url = "http://localhost:4444/register-comment";
         //ou
         // const url = "http://localhost/fullstack_eletro/src/backend/register-comment.php";
 
