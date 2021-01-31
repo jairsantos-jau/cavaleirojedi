@@ -21,7 +21,8 @@ criar o banco de dado com as tabelas.
 ## Todas as  as imagens dos produtos são  puxadas do banco de dado(API)
 onde e ultilizado o php para transforma em formato .JSON 
 
-## Para puxar essas imagens da API  precisar apenas indicar o seu caminho no meu caso é  const url = "http://localhost:8080/cavaleirojedi/src/backend/prod.php";
+## Para puxar essas imagens da API  precisar apenas indicar o seu caminho no meu caso é  :
+*const url = "http://localhost:8080/cavaleirojedi/src/backend/prod.php";*
 ![imagem produtos](https://github.com/jairsantos-jau/cavaleirojedi/blob/master/public/img/lojademostracao.PNG)
 
 No seu caso e so muda colocando o localhost como  se estivesse buscando dados de banco de dados com php no servidor.
